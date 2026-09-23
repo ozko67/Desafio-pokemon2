@@ -1,0 +1,25 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.Oddisih {
+    grid-column: 1 / 2;
+    grid-row: span 2;
+    background-color: rgb(70, 70, 202);
+    height: 100%;
+}
+
+.Gloom {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background-color: rgb(85, 202, 70);
+}
+
+.Vileplume {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-color: rgb(202, 96, 70);
+}

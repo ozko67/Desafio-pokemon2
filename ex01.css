@@ -1,0 +1,20 @@
+#ex1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    gap: 40px;
+} 
+
+.Pikachu, .Meowth, .Psyduck {
+    border: 2px dashed rgb(226, 11, 11);
+    
+}   
+
+body {
+    background: linear-gradient(to right, rgb(70, 70, 202), rgb(211, 200, 105));
+}
+
+
+
